@@ -1,0 +1,91 @@
+#app {
+  text-align: center;
+  width: 350px;
+  font-family: Arial, serif;
+}
+
+#heading {
+  font-style: normal;
+  color: #6cbbff;
+}
+
+#control {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#status {
+  font-style: italic;
+  color: #5656ff;
+}
+
+.btn-round {
+  border-radius: 50%;
+  padding: 20px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.btn-start {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+.btn-start:hover {
+  background-color: #f74242;
+}
+
+.btn-stop {
+  background-color: #008000;
+  color: #ffffff;
+}
+
+.btn-stop:hover {
+  background-color: #00b300;
+}
+
+#history {
+  width: 100%;
+  text-align: left;
+}
+
+#history .item {
+  background-color: #f0f8ff;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 5px 2px;
+}
+
+#emulator input[type=text] {
+  padding: 10px;
+  border: 2px solid #6cbbff;
+  border-radius: 4px 0 0 4px;
+  width: 80%;
+}
+
+#emulator input[type=text]:focus {
+  border: 2px solid #158ef7;
+}
+
+#emulator button[type=submit] {
+  padding: 10px;
+  background-color: #6cbbff;
+  border: 2px solid #6cbbff;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+#emulator button[type=submit]:hover {
+  background-color: #46a9ff;
+  border-color: #46a9ff;
+}
+
+.hidden {
+  display: none;
+}
+
+#goto-help {
+	margin-bottom: 5px;
+	font-size: 12px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" />
+    <title>Web Assistant</title>
+  </head>
+  <body>
+  <div id="app">
+    <h1 id="heading">Web Assistant</h1>
+
+    <div id="control">
+      <button type="button" class="btn-round btn-start" id="start-btn">Start</button>
+      <button type="button" class="btn-round btn-stop hidden" id="stop-btn">Stop</button>
+    </div>
+
+    <div id="status">
+      <h4 id="status-text">Connecting...</h4>
+    </div>
+
+	  <div id="goto-help">
+		  <a href="../options/index.html" target="_blank">Help</a>
+	  </div>
+
+    <div id="history">
+    </div>
+
+    <div id="emulator">
+      <form id="emulator-form">
+          <input type="text" placeholder="Enter your command here.." id="emulator-input" required><button type="submit">GO</button>
+      </form>
+    </div>
+  </div>
+  <script src="../browser-polyfill.min.js"></script>
+  <script src="../browser_action.js"></script>
+  </body>
+</html>
